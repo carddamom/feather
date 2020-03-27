@@ -5,7 +5,7 @@
     <parent>
         <groupId>cc.chordflower</groupId>
         <artifactId>feather-parent</artifactId>
-        <version>1.0.2-SNAPSHOT</version>
+        <version>1.2.1-SNAPSHOT</version>
     </parent>
     <artifactId>feather</artifactId>
     <name>Feather</name>
@@ -16,4 +16,11 @@
             <version>1.0.5.5-jre14</version>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>bintray-carddamom-feather</id>
+            <name>carddamom-feather</name>
+            <url>https://api.bintray.com/maven/carddamom/chordflower-maven/feather/;publish=1</url>
+        </repository>
+    </distributionManagement>
 </project>
