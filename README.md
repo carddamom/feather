@@ -1,16 +1,19 @@
+# README
+
+Hi, this is my version of feather it is a modular (as in java 9 modules) version, anc
+is currently compilable using java 14.
+
+As usual, I've only adapted the pom files and added the module-info.java file,
+all of the other work was made by [Zsolt Herpai](https://github.com/zsoltherpai),
+so thank you Zsolt Herpai, for your great work!
+
+Old readme, follows bellow:
+
 #### About Feather
-[Feather](http://zsoltherpai.github.io/feather) is an ultra-lightweight dependency injection ([JSR-330](https://jcp.org/en/jsr/detail?id=330 "JSR-330"))
-library for Java and Android. Dependency injection frameworks are often perceived as "magical" and complex. 
+Feather is an ultra-lightweight dependency injection ([JSR-330](https://jcp.org/en/jsr/detail?id=330 "JSR-330"))
+library for Java. Dependency injection frameworks are often perceived as "magical" and complex. 
 Feather - with just a few hundred lines of code - is probably the easiest, tiniest, most obvious one, 
 and is quite efficient too (see comparison section below).
-```xml
-<dependency>
-    <groupId>org.codejargon.feather</groupId>
-    <artifactId>feather</artifactId>
-    <version>1.0</version>
-</dependency>
-```
-[Javadoc](http://zsoltherpai.github.io/feather/apidocs "Javadoc") for Feather
 ##### Usage - code examples
 ###### Create Feather (the injector)
 ```java

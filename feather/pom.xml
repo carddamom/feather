@@ -3,17 +3,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.codejargon.feather</groupId>
+        <groupId>cc.chordflower</groupId>
         <artifactId>feather-parent</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.0.2-SNAPSHOT</version>
     </parent>
     <artifactId>feather</artifactId>
     <name>Feather</name>
     <dependencies>
         <dependency>
-            <groupId>javax.inject</groupId>
+            <groupId>com.guicedee.services</groupId>
             <artifactId>javax.inject</artifactId>
-            <version>1</version>
+            <version>1.0.5.5-jre14</version>
         </dependency>
     </dependencies>
 </project>
