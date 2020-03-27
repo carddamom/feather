@@ -1,6 +1,8 @@
 # README
 
-Hi, this is my version of feather it is a modular (as in java 9 modules) version, anc
+![Build](https://github.com/carddamom/feather/workflows/Java%20CI%20with%20Maven/badge.svg)
+
+Hi, this is my version of feather it is a modular (as in java 9 modules) version and
 is currently compilable using java 14.
 
 As usual, I've only adapted the pom files and added the module-info.java file,
