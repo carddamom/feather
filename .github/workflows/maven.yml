@@ -23,7 +23,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - run: shopt -s globstar  
-    - run: mkdir staging && cp **/*.jar staging
+    - run: mkdir staging && rsync -avm --include='*.jar' -f 'hide,! */' . staging
     - uses: actions/upload-artifact@v2
       with:
         name: Package
