@@ -13,7 +13,7 @@
       <dependency>
         <groupId>com.guicedee.services</groupId>
         <artifactId>javax.inject</artifactId>
-        <version>1.0.19.0-jre15</version>
+        <version>62</version>
       </dependency>
     </dependencies>
     <distributionManagement>
