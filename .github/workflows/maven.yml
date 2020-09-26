@@ -21,7 +21,7 @@ jobs:
       with:
         java-version: 15
     - name: Build with Maven
-    - run: mvn -B package --file pom.xml
+      run: mvn -B package --file pom.xml
     - run: shopt -s globstar  
     - run: mkdir staging && cp **/*.jar staging
     - uses: actions/upload-artifact@v2
